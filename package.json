@@ -1,0 +1,15 @@
+{
+  "name": "nontgcob_landing",
+  "version": "1.0.0",
+  "description": "A personal portfolio landing page website showcasing Nutnornont's profile and information. This website is fully developed by the owner Nutnornont Chamadol himself.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:sass": "sass main.scss style.css"
+  },
+  "author": "Nutnornont Chamadol",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.72.0"
+  }
+}
