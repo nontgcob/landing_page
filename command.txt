@@ -1,0 +1,14 @@
+***INSTALL SASS VIA NPM***
+- npm init
+- npm install node-sass --save-dev
+
+***INSTALL NODE MODULE FOLDER ALONE***
+// when developing the code from the previous developer who already did the full installation for us already.
+- npm install
+
+***AUDIT FIX COMMAND VIA NPM***
+- npm audit fix
+- npm audit fix --force
+
+***TO RUN THE COMMAND***
+- npm run compile:sass
