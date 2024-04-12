@@ -22,11 +22,15 @@
     <!-- Add Google Analytics tool -->
 
     <!-- Import Kursor stylesheet -->
-    <script src="https://cdn.jsdelivr.net/npm/kursor@0.0.14/dist/kursor.js"></script>
-
+    <link rel="stylesheet" href="https://unpkg.com/kursor/dist/kursor.css">
+    
     <!-- TODO: Set Rethink Sans as the default font for the entire website in CSS (SCSS) -->
-
+    
 </head>
+
+<script src="https://cdn.jsdelivr.net/npm/kursor@0.0.14/dist/kursor.js"></script> <!-- production version -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/kursor"></script> --> <!-- research and development version -->
+
 <body>
     <!-- HEADER -->
     <header class="header">
@@ -222,14 +226,16 @@
 
     </footer>
 
-    <!-- KURSOR (CUSTOM CURSOR) -->
-    <script src="https://unpkg.com/kursor"></script>
-    <script>
-        new kursor({
-            type: 2,
-            color: '#FFFFFF',
-            removeDefaultCursor: true
-        })
-    </script>
 </body>
+
+<!-- KURSOR (CUSTOM CURSOR) -->
+<script src="https://unpkg.com/kursor"></script>
+<script>
+    new kursor({
+        type: 2,
+        color: '#FFFFFF',
+        removeDefaultCursor: true
+    })
+</script>
+
 </html>

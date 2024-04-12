@@ -1,0 +1,40 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%; // defines that 1rem = 10px
+    font-family: "Rethink Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    scroll-behavior: smooth;
+}
+
+// GLOBAL STYLING
+
+
+// CUSTOM SCROLLBAR
+// tutorial src: https://dev.to/gaberomualdo/how-to-create-a-beautiful-custom-scrollbar-for-your-site-in-plain-css-1mjg
+// width & height
+::-webkit-scrollbar {
+    width: 20px;
+}
+// track
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+// scroller
+::-webkit-scrollbar-thumb {
+    background-color: #d6dee1;
+    border-radius: 20px;
+    border: 6px solid transparent;
+    background-clip: content-box;
+}
+// hover
+::-webkit-scrollbar-thumb:hover {
+    background-color: #a8bbbf;
+}
