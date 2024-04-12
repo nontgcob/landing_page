@@ -11,5 +11,8 @@
   "license": "ISC",
   "devDependencies": {
     "sass": "^1.72.0"
+  },
+  "dependencies": {
+    "kursor": "^0.1.6"
   }
 }
