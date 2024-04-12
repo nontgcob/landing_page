@@ -3,7 +3,8 @@
 *::before {
     margin: 0;
     padding: 0;
-    box-sizing: inherit;
+    // box-sizing: inherit;
+    box-sizing: border-box;
 }
 
 html {
@@ -15,7 +16,17 @@ html {
 }
 
 // GLOBAL STYLING
+.display-width {
+    width: 80%;
+    margin: auto auto;
+    // add min-width for mobile optimization
+}
 
+.display-width-large {
+    width: 90%;
+    margin: auto auto;
+    // add min-width for mobile optimization
+}
 
 // CUSTOM SCROLLBAR
 // tutorial src: https://dev.to/gaberomualdo/how-to-create-a-beautiful-custom-scrollbar-for-your-site-in-plain-css-1mjg

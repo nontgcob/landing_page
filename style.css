@@ -3,7 +3,7 @@
 *::before {
   margin: 0;
   padding: 0;
-  box-sizing: inherit;
+  box-sizing: border-box;
 }
 
 html {
@@ -12,6 +12,16 @@ html {
   font-optical-sizing: auto;
   font-style: normal;
   scroll-behavior: smooth;
+}
+
+.display-width {
+  width: 80%;
+  margin: auto auto;
+}
+
+.display-width-large {
+  width: 90%;
+  margin: auto auto;
 }
 
 ::-webkit-scrollbar {
