@@ -48,6 +48,11 @@ html {
     flex-direction: row-reverse;
 }
 
+.far-apart {
+    display: flex;
+    justify-content: space-between;
+}
+
 // CUSTOM SCROLLBAR
 // tutorial src: https://dev.to/gaberomualdo/how-to-create-a-beautiful-custom-scrollbar-for-your-site-in-plain-css-1mjg
 // width & height
