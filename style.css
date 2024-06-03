@@ -24,6 +24,26 @@ html {
   margin: auto auto;
 }
 
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.column-rev {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.row-rev {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
 ::-webkit-scrollbar {
   width: 20px;
 }
@@ -49,6 +69,23 @@ html {
   position: fixed;
   top: 0;
   z-index: 9999;
+}
+.header__home {
+  width: fit-content;
+  height: fit-content;
+  text-decoration: none;
+}
+.header__home__logo {
+  background-image: url("../img/logo/nontgcob.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 4rem;
+  height: 4rem;
+}
+.header__contact {
+  text-decoration: none;
+  padding: 2rem;
+  border: 1px solid #000000;
 }
 
 /*# sourceMappingURL=style.css.map */
