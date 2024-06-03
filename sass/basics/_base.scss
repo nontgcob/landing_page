@@ -28,6 +28,26 @@ html {
     // add min-width for mobile optimization
 }
 
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.column-rev {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.row-rev {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
 // CUSTOM SCROLLBAR
 // tutorial src: https://dev.to/gaberomualdo/how-to-create-a-beautiful-custom-scrollbar-for-your-site-in-plain-css-1mjg
 // width & height

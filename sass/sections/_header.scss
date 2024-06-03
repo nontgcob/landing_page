@@ -4,4 +4,29 @@
     position: fixed;
     top: 0;
     z-index: 9999;
+
+    &__home {
+        width: fit-content;
+        height: fit-content;
+        text-decoration: none; // remove link decoration
+
+        &__logo {
+            background-image: url("../img/logo/nontgcob.png");
+            // rescale the background image because it's a logo and is too large with the existing size
+            background-size: contain;
+            background-repeat: no-repeat;
+            width: 4rem;
+            height: 4rem;
+        }
+
+        &__name {
+            
+        }
+    }
+
+    &__contact {
+        text-decoration: none;
+        padding: 2rem;
+        border: 1px solid $color-black;
+    }
 }
