@@ -1,10 +1,16 @@
 .header {
     width: 100%;
-    height: 120px;
+    height: 70px;
     position: fixed;
     top: 0;
     z-index: 9999;
-
+    // border: 3px solid black;
+    // box-shadow: 0 .5rem 10 spread-radius $color-black;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
     &__home {
         width: fit-content;
         height: fit-content;
@@ -15,18 +21,30 @@
             // rescale the background image because it's a logo and is too large with the existing size
             background-size: contain;
             background-repeat: no-repeat;
-            width: 4rem;
-            height: 4rem;
+            width: 5rem;
+            height: 5rem;
         }
 
         &__name {
-            
+            font-size: 2.2rem;
+            color: $color-black;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            margin-left: 1.4rem;
         }
     }
 
     &__contact {
         text-decoration: none;
-        padding: 2rem;
-        border: 1px solid $color-black;
+        padding: .8rem 2rem;
+        border: 2px solid $color-black;
+        width: fit-content;
+        height: fit-content;
+        margin: auto 0;
+        font-size: 1.8rem;
+        border-radius: 1.4rem;
+        color: $color-black;
+        font-weight: 600;
     }
 }
