@@ -28,6 +28,12 @@ html {
     // add min-width for mobile optimization
 }
 
+.display-width-exception {
+    width: 90%;
+    margin: right auto;
+    // add min-width for mobile optimization
+}
+
 .column {
     display: flex;
     flex-direction: column;
