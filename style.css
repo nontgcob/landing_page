@@ -24,6 +24,12 @@ html {
   margin: auto auto;
 }
 
+.display-width-exception {
+  width: 90%;
+  margin-left: auto;
+  margin-right: 0;
+}
+
 .column {
   display: flex;
   flex-direction: column;
@@ -110,6 +116,37 @@ html {
   border-radius: 1.4rem;
   color: #000000;
   font-weight: 600;
+}
+
+.hero {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.hero__title__name {
+  font-size: 9rem;
+  color: #114EC2;
+  font-weight: 500;
+  margin-bottom: 4rem;
+}
+.hero__title__downloadCv {
+  font-size: 2rem;
+  text-decoration: none;
+  color: #114EC2;
+  border: 3px solid #114EC2;
+  padding: 1.4rem 2.4rem;
+  border-radius: 14px;
+  font-weight: 600;
+}
+.hero__profile {
+  background-image: url("../img/profile/pfp_hero.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  pointer-events: none;
+  width: 50vw;
+  height: 100vh;
+  border: 1px solid black;
 }
 
 /*# sourceMappingURL=style.css.map */

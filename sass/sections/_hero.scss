@@ -1,0 +1,37 @@
+.hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+
+    &__title {
+        &__name {
+            font-size: 9rem;
+            color: $color-primary;
+            font-weight: 500;
+            margin-bottom: 4rem;
+        }
+
+        &__downloadCv {
+            font-size: 2rem;
+            text-decoration: none;
+            color: $color-primary;
+            border: 3px solid $color-primary;
+            padding: 1.4rem 2.4rem;
+            border-radius: 14px;
+            font-weight: 600;
+        }
+    }
+
+    &__profile {
+        background-image: url("../img/profile/pfp_hero.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        pointer-events: none;
+        // width: 50rem;
+        // height: 50rem;
+        width: 50vw;
+        height: 100vh;
+        border: 1px solid black;
+    }
+}
