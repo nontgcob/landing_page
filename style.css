@@ -122,6 +122,20 @@ html {
   height: 100vh;
   display: flex;
   align-items: center;
+  justify-content: center;
+}
+.hero__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.hero__title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
 }
 .hero__title__name {
   font-size: 9rem;
@@ -129,7 +143,7 @@ html {
   font-weight: 500;
   margin-bottom: 4rem;
 }
-.hero__title__downloadCv {
+.hero__title__viewCv {
   font-size: 2rem;
   text-decoration: none;
   color: #114EC2;
@@ -138,13 +152,19 @@ html {
   border-radius: 14px;
   font-weight: 600;
 }
+.hero__title__viewCv:hover {
+  transform-origin: center;
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+  color: #114EC2;
+}
 .hero__profile {
   background-image: url("../img/profile/pfp_hero.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
   pointer-events: none;
-  width: 50vw;
+  width: 53vw;
   height: 100vh;
   border: 1px solid black;
 }
