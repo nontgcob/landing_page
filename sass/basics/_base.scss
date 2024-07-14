@@ -84,3 +84,13 @@ html {
 ::-webkit-scrollbar-thumb:hover {
     background-color: #a8bbbf;
 }
+
+// ANIMATION
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    // 100% { transform}
+}
+
+// todo: integrate the jiggle and crazySpin animation from ChatGPT, make it work with your code

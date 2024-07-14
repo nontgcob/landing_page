@@ -76,6 +76,11 @@ html {
   background-color: #a8bbbf;
 }
 
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+}
 .header {
   width: 100%;
   height: 70px;
