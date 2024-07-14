@@ -20,12 +20,14 @@ html {
     width: 80%;
     margin: auto auto;
     // add min-width for mobile optimization
+    max-width: 1200px;
 }
 
 .display-width-large {
     width: 90%;
     margin: auto auto;
     // add min-width for mobile optimization
+    // add max-width for this too just like how you did it for ".display-width" and ".display-width-exception"
 }
 
 .display-width-exception {
@@ -33,6 +35,7 @@ html {
     margin-left: auto;
     margin-right: 0;
     // add min-width for mobile optimization
+    max-width: 1550px;
 }
 
 .column {

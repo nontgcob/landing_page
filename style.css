@@ -17,6 +17,7 @@ html {
 .display-width {
   width: 80%;
   margin: auto auto;
+  max-width: 1200px;
 }
 
 .display-width-large {
@@ -28,6 +29,7 @@ html {
   width: 90%;
   margin-left: auto;
   margin-right: 0;
+  max-width: 1550px;
 }
 
 .column {
