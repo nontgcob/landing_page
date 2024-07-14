@@ -44,13 +44,13 @@
     }
 
     &__profile {
-        background-image: url("../img/profile/pfp_hero.png");
-        background-repeat: no-repeat;
+        background-image: url("../img/profile/nont_face_profile.png");
+        // rescale the background image because it's a logo and is too large with the existing size
         background-size: contain;
+        background-repeat: no-repeat;
+        width: 70vh;
+        height: 70vh;
+        margin-right: 10vw;
         background-position: center;
-        pointer-events: none;
-        width: 53vw;
-        height: 100vh;
-        border: 1px solid black;
     }
 }
