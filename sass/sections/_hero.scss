@@ -35,10 +35,9 @@
             font-weight: 600;
 
             &:hover {
-                transform-origin: center;
-                transform: scale(1.1);
-                transition: transform 0.3s ease-in-out;
-                color: $color-primary;
+                background-color: $color-primary;
+                color: $color-white;
+                transition: 0.3s ease-in;
             }
         }
     }

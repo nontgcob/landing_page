@@ -57,6 +57,10 @@ html {
   justify-content: space-between;
 }
 
+.pull-down {
+  margin-bottom: -6rem;
+}
+
 ::-webkit-scrollbar {
   width: 20px;
 }
@@ -125,6 +129,11 @@ html {
   color: #000000;
   font-weight: 600;
 }
+.header__contact:hover {
+  background-color: #000000;
+  color: #FFFFFF;
+  transition: 0.3s ease-in;
+}
 
 .hero {
   height: 100vh;
@@ -161,10 +170,9 @@ html {
   font-weight: 600;
 }
 .hero__title__viewCv:hover {
-  transform-origin: center;
-  transform: scale(1.1);
-  transition: transform 0.3s ease-in-out;
-  color: #114EC2;
+  background-color: #114EC2;
+  color: #FFFFFF;
+  transition: 0.3s ease-in;
 }
 .hero__profile {
   background-image: url("../img/profile/nont_face_profile.png");
