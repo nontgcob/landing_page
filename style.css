@@ -206,4 +206,31 @@ html {
   height: 5rem;
 }
 
+.about {
+  height: 114vh;
+  display: flex;
+  align-items: center;
+}
+.about__image {
+  background-image: url("../img/profile/aboutme-role.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 200rem;
+  height: 200rem;
+}
+.about__text {
+  padding: 3.4rem;
+}
+.about__text__title {
+  font-family: "Poppins", sans-serif;
+  font-size: 5.6rem;
+  font-weight: 450;
+}
+.about__text__description {
+  margin-top: 2.2rem;
+  font-family: "Rethink Sans", sans-serif;
+  font-size: 1.6rem;
+  color: #828282;
+}
+
 /*# sourceMappingURL=style.css.map */
