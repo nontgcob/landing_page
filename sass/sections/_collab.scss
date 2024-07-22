@@ -1,0 +1,28 @@
+.collab {
+    
+    &__title {
+        font-size: 2.2rem;
+        font-weight: 500;
+        text-align: center;
+        margin-bottom: 4rem;
+        margin-top: 3.6rem;
+    }
+
+    &__companies {
+        display: flex;
+        align-items: center;
+        width: fit-content;
+        margin: auto;
+        margin-bottom: 3.6rem;
+        // border: 1px solid black;
+
+        &__standard-height {
+            height: 7rem;
+            margin-right: 6rem;
+        }
+
+        &__short-height {
+            height: 5rem;
+        }
+    }
+}

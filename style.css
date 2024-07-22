@@ -184,4 +184,26 @@ html {
   background-position: center;
 }
 
+.collab__title {
+  font-size: 2.2rem;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 4rem;
+  margin-top: 3.6rem;
+}
+.collab__companies {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  margin: auto;
+  margin-bottom: 3.6rem;
+}
+.collab__companies__standard-height {
+  height: 7rem;
+  margin-right: 6rem;
+}
+.collab__companies__short-height {
+  height: 5rem;
+}
+
 /*# sourceMappingURL=style.css.map */
