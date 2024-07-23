@@ -1,6 +1,8 @@
 .about {
     // padding: 
-    height: 114vh;
+    // height: 114vh;
+    // height: 60rem;
+    height: 92vh;
     display: flex;
     align-items: center;
 
@@ -8,12 +10,16 @@
         background-image: url("../img/profile/aboutme-role.png");
         background-size: contain;
         background-repeat: no-repeat;
-        width: 200rem;
-        height: 200rem;
+        width: 70vh;
+        height: 50vh;
+        background-position: center;
+        // border: 1px solid black;
+        padding: auto;
     }
 
     &__text {
-        padding: 3.4rem;
+        padding: 2.8rem 0 2.8rem 0;
+        // width: 49vw;
 
         &__title {
             font-family: "Poppins", sans-serif;
@@ -23,9 +29,10 @@
 
         &__description {
             margin-top: 2.2rem;
-            font-family: "Rethink Sans", sans-serif;
+            font-family: "Poppins", sans-serif;
             font-size: 1.6rem;
-            // width: 74%;
+            font-weight: 300;
+            width: 45vw;
             color: $color-gray;
         }
     }
