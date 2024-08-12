@@ -241,4 +241,33 @@ main {
   color: #828282;
 }
 
+.skills {
+  height: 90vh;
+  display: flex;
+  flex-direction: row;
+}
+.skills__text__title {
+  font-size: 7rem;
+  font-weight: 500;
+}
+.skills__text__description {
+  font-size: 2rem;
+  color: #828282;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  width: 40vh;
+  margin-top: 1.4rem;
+}
+.skills__list__container {
+  display: flex;
+  flex-direction: column;
+  width: 50rem;
+}
+.skills__list__container__box {
+  height: 10rem;
+  padding: 0.6rem;
+  border: 1px solid hwb(0 0% 100%/0.1);
+  border-radius: 30px;
+}
+
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,41 @@
+.skills {
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+
+    &__text {
+        &__title {
+            font-size: 7rem;
+            font-weight: 500;
+        }
+
+        &__description {
+            font-size: 2rem;
+            color: $color-gray;
+            font-family: "Poppins", sans-serif;
+            font-weight: 300;
+            width: 40vh;
+            margin-top: 1.4rem;
+        }
+    }
+
+    &__list {
+        &__circle {
+
+        }
+        
+        &__container {
+            display: flex;
+            flex-direction: column;
+            width: 50rem;
+
+            &__box {
+                // height: fit-content;
+                height: 10rem;
+                padding: .6rem;
+                border: 1px solid hwb(0 0% 100% / 0.10);
+                border-radius: 30px;
+            }
+        }
+    }
+}
