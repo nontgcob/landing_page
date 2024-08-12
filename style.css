@@ -89,6 +89,14 @@ main {
     transform: rotate(0deg);
   }
 }
+@keyframes underline-left-to-right {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
 .header {
   width: 100%;
   height: 70px;
@@ -242,13 +250,16 @@ main {
 }
 
 .skills {
+  margin-top: -10rem;
   height: 90vh;
-  display: flex;
-  flex-direction: row;
+}
+.skills__text {
+  width: fit-content;
 }
 .skills__text__title {
   font-size: 7rem;
   font-weight: 500;
+  width: fit-content;
 }
 .skills__text__description {
   font-size: 2rem;
@@ -258,16 +269,58 @@ main {
   width: 40vh;
   margin-top: 1.4rem;
 }
+.skills__list {
+  background: radial-gradient(circle at bottom right, hsla(229, 84%, 55%, 0.3) 20%, rgba(46, 81, 237, 0) 60%);
+  padding: 14rem;
+}
 .skills__list__container {
   display: flex;
   flex-direction: column;
-  width: 50rem;
+  width: 60rem;
 }
 .skills__list__container__box {
-  height: 10rem;
-  padding: 0.6rem;
+  background-color: #FFFFFF;
+  height: 13rem;
   border: 1px solid hwb(0 0% 100%/0.1);
   border-radius: 30px;
+  width: 60rem;
+  transition: all 0.4s ease-out;
+  padding: 1.2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.skills__list__container__box:not(:last-child) {
+  margin-bottom: 2rem;
+}
+.skills__list__container__box .first-word {
+  font-weight: 600;
+  color: #114EC2;
+}
+.skills__list__container__box:hover {
+  box-shadow: 0 0 24px rgba(0, 0, 0, 0.04);
+  border: 2px solid #114EC2;
+  transition: all 0.4s ease-out;
+  transform: scale(1.05);
+}
+.skills__list__container__box:hover .first-word {
+  text-decoration: underline;
+  text-underline-offset: 0.3rem;
+  text-decoration-style: wavy;
+}
+.skills__list__container__box__icon {
+  width: 18%;
+  height: 100%;
+  background-color: rgb(209, 233, 255);
+  border-radius: 20px;
+}
+.skills__list__container__box__text {
+  font-size: 1.5rem;
+  color: #828282;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  width: 80%;
 }
 
 /*# sourceMappingURL=style.css.map */

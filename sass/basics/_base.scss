@@ -72,6 +72,24 @@ main {
     margin-bottom: -6rem;
 }
 
+// .first-word {
+//     font-weight: 600;
+//     color: #114EC2;
+//     display: inline-block;
+//     position: relative;
+
+//     &::after {
+//         content: "";
+//         position: absolute;
+//         left: 0;
+//         bottom: -2px;
+//         height: 2px;
+//         background-color: #114EC2;
+//         width: 0;
+//         // transition: width 0.5s ease-out;
+//     }
+// }
+
 // CUSTOM SCROLLBAR
 // tutorial src: https://dev.to/gaberomualdo/how-to-create-a-beautiful-custom-scrollbar-for-your-site-in-plain-css-1mjg
 // width & height
@@ -103,3 +121,12 @@ main {
 }
 
 // todo: integrate the jiggle and crazySpin animation from ChatGPT, make it work with your code
+
+@keyframes underline-left-to-right {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
