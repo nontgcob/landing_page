@@ -47,6 +47,7 @@
         border-radius: 1.4rem;
         color: $color-black;
         font-weight: 600;
+        transition: 0.3s ease-out;
 
         &:hover {
             background-color: $color-black;
