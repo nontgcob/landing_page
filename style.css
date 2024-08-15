@@ -65,6 +65,20 @@ main {
   margin-bottom: -6rem;
 }
 
+.gradient-bottomright {
+  background: radial-gradient(circle at bottom right, hsla(229, 84%, 55%, 0.3) 20%, rgba(46, 81, 237, 0) 50%);
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.gradient-bottom-mini {
+  background: radial-gradient(circle at bottom left, hsla(21, 100%, 50%, 0.3) 0%, hsla(31, 100%, 60%, 0.2) 20%, transparent 54%), radial-gradient(circle at bottom right, hsla(236, 100%, 50%, 0.3) 0%, hsla(212, 100%, 60%, 0.2) 20%, transparent 54%), linear-gradient(to top, hsla(237, 100%, 50%, 0.2) 0%, hsla(199, 100%, 60%, 0.1) 28%, transparent 70%);
+  background-size: 60% 60%, 60% 60%, 100% 100%;
+  background-position: bottom left, bottom right, center;
+  background-repeat: no-repeat;
+}
+
 ::-webkit-scrollbar {
   width: 20px;
 }
@@ -252,7 +266,7 @@ main {
 }
 
 .skills {
-  margin-top: -10rem;
+  margin-top: -18vh;
   height: 90vh;
 }
 .skills__text {
@@ -272,8 +286,7 @@ main {
   margin-top: 1.4rem;
 }
 .skills__list {
-  background: radial-gradient(circle at bottom right, hsla(229, 84%, 55%, 0.3) 20%, rgba(46, 81, 237, 0) 60%);
-  padding: 14rem;
+  padding-right: 10vw;
 }
 .skills__list__container {
   display: flex;

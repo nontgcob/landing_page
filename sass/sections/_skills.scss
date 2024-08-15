@@ -1,5 +1,5 @@
 .skills {
-    margin-top: -10rem;
+    margin-top: -18vh;
     height: 90vh;
 
     &__text {
@@ -22,8 +22,7 @@
     }
 
     &__list {
-        background: radial-gradient(circle at bottom right, hsla(229, 84%, 55%, 0.3) 20%, rgba(46, 81, 237, 0) 60%);
-        padding: 14rem;
+        padding-right: 10vw;
         
         &__container {
             display: flex;
