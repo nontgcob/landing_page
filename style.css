@@ -16,6 +16,7 @@ html {
 
 main {
   height: 100vh;
+  overflow-x: hidden;
 }
 
 .display-width {
@@ -163,23 +164,17 @@ main {
 }
 
 .hero {
-  height: 100vh;
+  height: 106vh;
   display: flex;
   align-items: center;
   justify-content: center;
-}
-.hero__container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  height: 100%;
 }
 .hero__title {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  margin-bottom: 4rem;
 }
 .hero__title__name {
   font-size: 9rem;
@@ -210,8 +205,18 @@ main {
   height: 70vh;
   margin-right: 10vw;
   background-position: center;
+  margin-bottom: 4rem;
 }
 
+.collab {
+  transform: rotate(2deg);
+  background-color: #FFFFFF;
+  border-top: 2px solid #000000;
+  border-bottom: 2px solid #000000;
+  margin-top: -2.6rem;
+  width: 102vw;
+  margin-left: -2rem;
+}
 .collab__title {
   font-size: 2.2rem;
   font-weight: 500;
@@ -238,6 +243,7 @@ main {
   height: 92vh;
   display: flex;
   align-items: center;
+  margin-top: 3rem;
 }
 .about__image {
   background-image: url("../img/profile/aboutme-role.png");
